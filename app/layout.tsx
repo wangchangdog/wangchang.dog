@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "wangchang.dog",
+		template: "%s | wangchang.dog",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer at 80 & Company",
 	openGraph: {
-		title: "chronark.com",
+		title: "wangchang.dog",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Software engineer at 80 & Company",
+		url: "https://wangchang.dog",
+		siteName: "wangchang.dog",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://wangchang.dog/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -66,9 +66,8 @@ export default function RootLayout({
 				<Analytics />
 			</head>
 			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
+				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+					}`}
 			>
 				{children}
 			</body>
