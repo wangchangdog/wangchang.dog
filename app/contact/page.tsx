@@ -1,21 +1,21 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, SearchIcon, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
 
 const socials = [
+	// {
+	// 	icon: <Twitter size={20} />,
+	// 	href: "https://twitter.com/wangchangdog",
+	// 	label: "Twitter",
+	// 	handle: "@wangchangdog",
+	// },
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/wangchangdog",
-		label: "Twitter",
-		handle: "@wangchangdog",
-	},
-	{
-		icon: <Mail size={20} />,
-		href: "mailto:dev@wangchang.dog",
-		label: "Email",
-		handle: "dev@wangchang.dog",
+		icon: <SearchIcon size={20} />,
+		href: "https://qiita.com/vaporwavedog",
+		label: "Qiita",
+		handle: "@vaporwavedog",
 	},
 	{
 		icon: <Github size={20} />,

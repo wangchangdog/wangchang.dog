@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 	description: "Software engineer at 80 & Company",
 	openGraph: {
 		title: "wangchang.dog",
-		description:
-			"Software engineer at 80 & Company",
+		description: "Software engineer at 80 & Company",
 		url: "https://wangchang.dog",
 		siteName: "wangchang.dog",
 		images: [
@@ -66,8 +65,9 @@ export default function RootLayout({
 				<Analytics />
 			</head>
 			<body
-				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-					}`}
+				className={`bg-black ${
+					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+				}`}
 			>
 				{children}
 			</body>
